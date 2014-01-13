@@ -1,0 +1,5 @@
+<file:///home/gurke/work/os2-devcon/examples/example.n3#Mary> <file:///home/gurke/work/os2-devcon/examples/example.n3#hasA> <file:///home/gurke/work/os2-devcon/examples/example.n3#littleLamb>.
+<file:///home/gurke/work/os2-devcon/examples/example.n3#sevenDwarfs> <file:///home/gurke/work/os2-devcon/examples/example.n3#mustCatch> <file:///home/gurke/work/os2-devcon/examples/example.n3#littleLamb>.
+<file:///home/gurke/work/os2-devcon/examples/example.n3#littleLamb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///home/gurke/work/os2-devcon/examples/example.n3#animal>.
+<file:///home/gurke/work/os2-devcon/examples/example.n3#Bigbadwolf> <file:///home/gurke/work/os2-devcon/examples/example.n3#engages> <file:///home/gurke/work/os2-devcon/examples/example.n3#sevenDwarfs>.
+<file:///home/gurke/work/os2-devcon/examples/example.n3#Bigbadwolf> <file:///home/gurke/work/os2-devcon/examples/example.n3#wants> <file:///home/gurke/work/os2-devcon/examples/example.n3#littleLamb>.

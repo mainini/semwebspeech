@@ -1,0 +1,19 @@
+<?XML VERsion="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns="http://example.org/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://example.org/Mary">
+    <hasA rdf:resource="http://example.org/littleLamb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sevenDwarfs">
+    <mustCatch rdf:resource="http://example.org/littleLamb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/littleLamb">
+    <rdf:type rdf:resource="http://example.org/animal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Bigbadwolf">
+    <engages rdf:resource="http://example.org/sevenDwarfs"/>
+    <wants rdf:resource="http://example.org/littleLamb"/>
+  </rdf:Description>
+</rdf:RDF>

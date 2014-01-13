@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns="file:///home/gurke/work/os2-devcon/examples/example.n3#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="file:///home/gurke/work/os2-devcon/examples/example.n3#Mary">
+    <hasA rdf:resource="file:///home/gurke/work/os2-devcon/examples/example.n3#littleLamb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="file:///home/gurke/work/os2-devcon/examples/example.n3#sevenDwarfs">
+    <mustCatch rdf:resource="file:///home/gurke/work/os2-devcon/examples/example.n3#littleLamb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="file:///home/gurke/work/os2-devcon/examples/example.n3#littleLamb">
+    <rdf:type rdf:resource="file:///home/gurke/work/os2-devcon/examples/example.n3#animal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="file:///home/gurke/work/os2-devcon/examples/example.n3#Bigbadwolf">
+    <engages rdf:resource="file:///home/gurke/work/os2-devcon/examples/example.n3#sevenDwarfs"/>
+    <wants rdf:resource="file:///home/gurke/work/os2-devcon/examples/example.n3#littleLamb"/>
+  </rdf:Description>
+</rdf:RDF>
