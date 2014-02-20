@@ -8,3 +8,5 @@ This repository contains presentations given by me on the subject of the semanti
 * semwebspeech-3: Given at [netlabs.org](http://www.netlabs.org) developers workshop 2009 
 
 See LICENSE.md for information regarding usage and licensing.
+
+See <http://mainini.ch> for more projects by me and for ways to contact me.
